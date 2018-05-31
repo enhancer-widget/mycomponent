@@ -29,7 +29,7 @@ npm install --registry=https://registry.npm.taobao.org
 npm start
 ```
 
-在打开配置页面上的数据源里填入下面的数据
+在打开的配置页面上的数据源里填入下面的数据
 ```json
 [{
 	"text": "apple",
@@ -44,4 +44,5 @@ npm start
 ```
 
 点击页面底部的 保存 按钮, 然后点击 预览 按钮查看效果
+
 再回到配置页面 改变字体大小后 再 保存, 预览

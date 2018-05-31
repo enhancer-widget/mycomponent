@@ -54,7 +54,10 @@
               "actions": []
             }
           },
-          "widgetProfile": false,
+          "widgetProfile": {
+            "dataSourceId": 1527733847817,
+            "fontSize": "12"
+          },
           "autoHeight": false,
           "noTopBorder": true,
           "noRightBorder": true,
@@ -80,7 +83,20 @@
           "closeBtn": false,
           "refreshBtn": false,
           "maximizeBtn": false,
-          "open": true
+          "open": true,
+          "datasources": {
+            "1527733847817": {
+              "id": 1527733847817,
+              "type": "static",
+              "query": "[{\"text\": \"aaaa\"}, {\"text\": \"bbb\"}]",
+              "dataType": "json",
+              "mockEnabled": false,
+              "mock": "",
+              "localProcessEnabled": false,
+              "localProcess": "function(result) {\n\t//todo: \n\treturn result;\n}",
+              "params": []
+            }
+          }
         },
         "12": {
           "no": 12,

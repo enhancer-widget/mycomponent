@@ -27,7 +27,10 @@
           "draggable": false,
           "buttons": [],
           "ehandlers": {},
-          "widgetProfile": false,
+          "widgetProfile": {
+            "dataSourceId": 1527733852680,
+            "fontSize": "12"
+          },
           "widgetName": "mycomponent",
           "widgetVersion": "0.0.0",
           "widgetConfiguratorVersion": null,
@@ -57,7 +60,20 @@
           "corner": "rounded",
           "regularRefresh": false,
           "refreshInterval": null,
-          "open": true
+          "open": true,
+          "datasources": {
+            "1527733852680": {
+              "id": 1527733852680,
+              "type": "static",
+              "query": "[{\"text\": \"aaaa\"}, {\"text\": \"bbb\"}]",
+              "dataType": "json",
+              "mockEnabled": false,
+              "mock": "",
+              "localProcessEnabled": false,
+              "localProcess": "function(result) {\n\t//todo: \n\treturn result;\n}",
+              "params": []
+            }
+          }
         }
       },
       "containers": [],
